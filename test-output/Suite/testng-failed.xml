@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StandAloneTest(failed)">
+    <classes>
+      <class name="AutomationFramework.tests.StandAloneTest">
+        <methods>
+          <include name="configReports"/>
+          <include name="initializeDriver"/>
+          <include name="SubmitOrder"/>
+          <include name="OrderHistory"/>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- AutomationFramework.tests.StandAloneTest -->
+    </classes>
+  </test> <!-- StandAloneTest(failed) -->
+  <test thread-count="5" name="ErrorValidation(failed)">
+    <classes>
+      <class name="AutomationFramework.tests.ErrorValidation">
+        <methods>
+          <include name="configReports"/>
+          <include name="errorValidation"/>
+          <include name="initializeDriver"/>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- AutomationFramework.tests.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
