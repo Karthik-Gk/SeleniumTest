@@ -24,6 +24,7 @@ public class StandAloneTest extends BaseTest{
 		String productName = "Zara coat 3";
 		String country = "India";
 		String orderConfirmation = "Thankyou for the order.";
+		This is for testing
 
 		ProductCatalogue productCatalogue = loginPage.userLogin(emailId, password);
 		productCatalogue.addProductToCart(productName);
