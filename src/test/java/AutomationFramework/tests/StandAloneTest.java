@@ -24,6 +24,7 @@ public class StandAloneTest extends BaseTest{
 		String productName = "Zara coat 3";
 		String country = "India";
 		String orderConfirmation = "Thankyou for the order.";
+		System.out.println("This is from Local");
 
 		ProductCatalogue productCatalogue = loginPage.userLogin(emailId, password);
 		productCatalogue.addProductToCart(productName);
